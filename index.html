@@ -4,11 +4,303 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Test Task Rashyn</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div id="root"></div>
     <div id="like_button_container"></div>
-
+    <main>
+      <section class="section-test">
+        <div class="conteanir">
+          <ul class="list-markers button-filter">
+            <div class="dropdown-container">
+                <label class="label" for="dropdown">Car brand</label>
+              <select class="select-car" id="dropdown">
+                <option value="" disabled selected>Enter the text</option>
+                <option value="option1">Опция 1</option>
+                <option value="option2">Опция 2</option>
+                <option value="option3">Опция 3</option>
+                <option value="option3">Опция 4</option>
+                <option value="option3">Опция 5</option>
+              </select>
+            </div>
+            <div class="dropdown-container">
+                <label class="label" for="dropdown">Price/ 1 hour</label>
+              <select class="select-price" id="dropdown">
+                <option value="" disabled selected>To $</option>
+                <option value="option1">Опция 1</option>
+                <option value="option2">Опция 2</option>
+                <option value="option3">Опция 3</option>
+                <option value="option3">Опция 4</option>
+                <option value="option3">Опция 5</option>
+              </select>
+            </div>
+            <div class="container">
+                <label class="label" for="dropdown">Сar mileage / km</label>
+                <div class="left-side">
+                    <p class="from-text">From</p>
+                </div>
+                <div class="separator"></div>
+                <div class="right-side">
+                    <p class="to-text">To</p>
+                </div>
+                <ul class="list-markers">
+                    <li><button type="button" class="button-text">Search</button></li>
+                </ul>
+            </div>
+            </body>
+          </ul>
+          <ul class="section-img list-markers">
+            <li>
+              <a class="card-link" href="#">
+                <div class="text-wrap">
+                  <img
+                    src="./css/images/image-1.jpg"
+                    alt="Project-Card-1"
+                    width="274"
+                  />
+                </div>
+                <div class="text">
+                  <h3 class="list-title">Buick Enclave, 2008</h3>
+                  <div>
+                    <h4 class="list-title">$40</h4>
+                  </div>
+                  <div class="text-link-one">
+                    <p class="list-text-card">App</p>
+                  </div>
+                  
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="card-link" href="#">
+                <div class="text-wrap">
+                  <img
+                    src="./css/images/image-2.jpg"
+                    alt="Project-Card-2"
+                    width="274"
+                  />
+                </div>
+                <div class="text">
+                  <h3 class="list-title">Volvo XC90, 2019</h3>
+                  <div>
+                    <h4 class="list-title">$50</h4>
+                  </div>
+                  <p class="list-text-card">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="card-link" href="#">
+                <div class="text-wrap">
+                  <img
+                    src="./css/images/image-31.jpg"
+                    alt="Project-Card-3"
+                    width="274"
+                  />
+                </div>
+                <div class="text">
+                  <h3 class="list-title">Volvo XC60, 2020</h3>
+                  <div>
+                    <h4 class="list-title">$45</h4>
+                  </div>
+                  <p class="list-text-card">App</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="card-link" href="#">
+                <div class="text-wrap">
+                  <img
+                    src="./css/images/image-4.jpg"
+                    alt="Project-Card-1"
+                    width="274"
+                  />
+                </div>
+                <div class="text">
+                  <h3 class="list-title">Buick Enclave, 2008</h3>
+                  <div>
+                    <h4 class="list-title">$40</h4>
+                  </div>
+                  <p class="list-text-card">Marketing</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="card-link" href="#">
+                <div class="text-wrap">
+                  <img
+                    src="./css/images/image-5.jpg"
+                    alt="Project-Card-2"
+                    width="274"
+                  />
+                </div>
+                <div class="text">
+                  <h3 class="list-title">Hummer, 2006</h3>
+                  <div>
+                    <h4 class="list-title">$55</h4>
+                  </div>
+                  <p class="list-text-card">Design</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="card-link" href="#">
+                <div class="text-wrap">
+                  <img
+                    src="./css/images/image-6.jpg"
+                    alt="Project-Card-3"
+                    width="274"
+                  />
+                </div>
+                <div class="text">
+                  <h3 class="list-title">Mitsubishi, 2010</h3>
+                  <div>
+                    <h4 class="list-title">$30</h4>
+                  </div>
+                  <p class="list-text-card">Marketing</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="card-link" href="#">
+                <div class="text-wrap">
+                  <img
+                    src="./css/images/image-7.jpg"
+                    alt="Project-Card-1"
+                    width="274"
+                  />
+                </div>
+                <div class="text">
+                  <h3 class="list-title">Nissan, 2014</h3>
+                  <div>
+                    <h4 class="list-title">$40</h4>
+                  </div>
+                  <p class="list-text-card">Design</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="card-link" href="#">
+                <div class="text-wrap">
+                  <img
+                    src="./css/images/image-8.jpg"
+                    alt="Project-Card-2"
+                    width="274"
+                  />
+                </div>
+                <div class="text">
+                  <h3 class="list-title">Lincoln, 2009</h3>
+                  <div>
+                    <h4 class="list-title">$50</h4>
+                  </div>
+                  <p class="list-text-card">Web Site</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="card-link" href="#">
+                <div class="text-wrap">
+                  <img
+                    src="./css/images/image-9.jpg"
+                    alt="Project-Card-3"
+                    width="274"
+                  />
+                </div>
+                <div class="text">
+                  <h3 class="list-title">GMC, 2000</h3>
+                  <div>
+                    <h4 class="list-title">$45</h4>
+                  </div>
+                  <p class="list-text-card">Web Site</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="card-link" href="#">
+                <div class="text-wrap">
+                  <img
+                    src="./css/images/image-10.jpg"
+                    alt="Project-Card-3"
+                    width="274"
+                  />
+                </div>
+                <div class="text">
+                  <h3 class="list-title">Hyundai, 2007</h3>
+                  <div>
+                    <h4 class="list-title">$25</h4>
+                  </div>
+                  <p class="list-text-card">Web Site</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="card-link" href="#">
+                <div class="text-wrap">
+                  <img
+                    src="./css/images/image-11.jpg"
+                    alt="Project-Card-3"
+                    width="274"
+                  />
+                </div>
+                <div class="text">
+                  <h3 class="list-title">MINI, 2006</h3>
+                  <div>
+                    <h4 class="list-title">$30</h4>
+                  </div>
+                  <p class="list-text-card">Web Site</p>
+                </div></a
+              >
+            </li>
+            <li>
+              <a class="card-link" href="#">
+                <div class="text-wrap">
+                  <img
+                    src="./css/images/image-12.jpg"
+                    alt="Project-Card-3"
+                    width="274"
+                  />
+                </div>
+                <div class="text">
+                  <h3 class="list-title">Bentley, 2007</h3>
+                  <div>
+                    <h4 class="list-title">$150</h4>
+                  </div>
+                  <p class="list-text-card">Web Site</p>
+                </div></a
+              >
+            </li>
+          </ul>
+          <ul class="list-markers">
+            <li class="button-down"><button type="button" class="button-text-down">Load more</button></li>
+        </ul>
+        </div>
+        
+      </div>
+     
+  </div>
+      </section>
+    </main>
     <script
       src="https://unpkg.com/react@18/umd/react.development.js"
       crossorigin
